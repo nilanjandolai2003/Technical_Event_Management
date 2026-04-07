@@ -6,7 +6,7 @@
 ## 🚀 Quick Setup
 
 ### 1. Database Setup
-1. Open **phpMyAdmin** or your MySQL client
+1. Open **phpMyAdmin** or  MySQL client
 2. Run the SQL file: `database.sql`
 3. This creates all tables and a default admin account
 
@@ -14,8 +14,8 @@
 Edit `includes/config.php`:
 ```php
 define('DB_HOST', 'localhost');
-define('DB_USER', 'root');        // your MySQL username
-define('DB_PASS', '');            // your MySQL password
+define('DB_USER', 'root');        //  MySQL username
+define('DB_PASS', '');            //  MySQL password
 define('DB_NAME', 'tech_event_db');
 define('SITE_URL', 'http://localhost/technical_event_management');
 ```
