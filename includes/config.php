@@ -1,10 +1,10 @@
 <?php
 // includes/config.php
-define('DB_HOST', 'sql113.infinityfree.com');
-define('DB_USER', 'if0_41568620');
-define('DB_PASS', 'H67oIB99yv47B');
-define('DB_NAME', 'if0_41568620_tech_event_db');
-define('SITE_URL', 'http://if0_41568620.infinityfreeapp.com');
+define('DB_HOST', 'localhost');
+define('DB_USER', 'root');
+define('DB_PASS', '');
+define('DB_NAME', 'tech_event_db');
+define('SITE_URL', 'http://localhost/technical_event_management');;
 define('SITE_NAME', 'TechEvent Manager');
 
 session_start();
